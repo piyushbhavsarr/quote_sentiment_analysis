@@ -1,0 +1,58 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f9f7f3; /* Soft beige background */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 80px auto;
+    padding: 30px;
+    background-color: #ffffff; /* White background */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    border-radius: 15px; /* Rounded corners */
+}
+
+h1 {
+    text-align: center;
+    color: #4a2c2c; /* Dark brown for a royal touch */
+    font-size: 36px; /* Larger font size for emphasis */
+    margin-bottom: 30px;
+    text-transform: uppercase; /* Uppercase text */
+}
+
+.quote-container {
+    padding: 30px;
+    border-bottom: 2px solid #d4af37; /* Gold border for luxury */
+    margin-bottom: 20px;
+}
+
+.quote {
+    font-size: 28px; /* Large font size for the quote */
+    color: #4a2c2c; /* Dark brown text color */
+    margin-bottom: 20px;
+    font-style: italic; /* Italicize the quote for emphasis */
+}
+
+.sentiment, .summary {
+    font-size: 22px; /* Slightly larger font size */
+    color: #6b4f3f; /* Brown text color */
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 20px; /* Larger font size for the button */
+    background-color: #d4af37; /* Gold background color */
+    color: #ffffff; /* White text color */
+    border: none;
+    border-radius: 25px; /* Rounded corners for a luxurious feel */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #b58c28; /* Darker gold on hover */
+    box-shadow: 0 0 15px rgba(212, 175, 55, 0.5); /* Soft shadow on hover */
+}
