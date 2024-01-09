@@ -79,5 +79,10 @@ def new_quote():
     sentiment, summary = analyze_quote(quote)
     return jsonify({'quote': quote, 'sentiment': sentiment, 'summary': summary})
 
+@app.route('/health')
+def health_check():
+    return jsonify({"status": "healthy"}), 200
+
+
 if __name__ == '__main__':
     app.run(debug=True)
