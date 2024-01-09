@@ -1,27 +1,30 @@
+import os
+from dotenv import load_dotenv
 from flask import Flask, render_template, jsonify
 from flask_cors import CORS
 import mysql.connector
 from azure.ai.textanalytics import TextAnalyticsClient
 from azure.core.credentials import AzureKeyCredential
 
+# Load environment variables from .env file
+load_dotenv()
+
 # Initialize Flask application
 app = Flask(__name__)
-
 CORS(app)
 
 # Azure Database for MySQL Configuration
 DATABASE_CONFIG = {
-    'host': "quotesmysql.mysql.database.azure.com",
-    'user': "piyush",
-    'password': "Walkingdolphin@2023",
-    'database': "quotes",
+    'host': os.getenv("DATABASE_HOST"),
+    'user': os.getenv("DATABASE_USER"),
+    'password': os.getenv("DATABASE_PASSWORD"),
+    'database': os.getenv("DATABASE_NAME"),
     'port': 3306,
-    #'ssl_ca': 'path_to_ca_certificate.pem'  # Path to CA certificate if required
 }
 
 # Azure AI Service Configuration
-KEY = '9b6e114fc9fd41069a8a49c59d61db8c'
-ENDPOINT = 'https://quotesai.cognitiveservices.azure.com/'
+KEY = os.getenv("AZURE_KEY")
+ENDPOINT = os.getenv("AZURE_ENDPOINT")
 
 # Connect to Azure Database for MySQL
 def get_database_connection():
@@ -43,7 +46,7 @@ def fetch_quote_from_database():
     conn = get_database_connection()
     if conn:
         cursor = conn.cursor()
-        cursor.execute("SELECT Quote FROM Quotes ORDER BY RAND() LIMIT 1")  # Randomly fetch a quote
+        cursor.execute("SELECT Quote FROM Quotes ORDER BY RAND() LIMIT 1")
         quote = cursor.fetchone()[0]
         conn.close()
         return quote
