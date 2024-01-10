@@ -1,24 +1,28 @@
 /* Global Styles */
 body {
     font-family: 'Times New Roman', Times, serif;
-    background-color: #f9f7f3;
+    background-color: #d6d3d4;
     margin: 0;
     padding: 0;
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 1192px;
     margin: 50px auto;
-    padding: 40px;
+    padding: 38px;
+    padding-top: 38px;
+    padding-right: 38px;
+    padding-bottom: 38px;
+    padding-left: 38px;
     background-color: #ffffff;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 20px 9px 12px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
 }
 
 h1 {
     text-align: center;
     color: #4a2c2c;
-    font-size: 40px;
+    font-size: 37px;
     margin-bottom: 30px;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -26,21 +30,25 @@ h1 {
 
 /* Sections */
 section {
-    margin-bottom: 30px;
-    padding: 20px;
-    border-radius: 15px;
+    margin: auto;
+    /* margin-left: 254px; */
+    width: 1000px;
+    margin-bottom: 31px;
+    padding: 19px;
+    border-radius: 12px;
     background-color: #fefefe;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 section h2 {
+    text-align: center;
     font-size: 28px;
     color: #4a2c2c;
     margin-bottom: 20px;
 }
 
 section p {
-    font-size: 24px;
+    font-size: 23px;
     color: #6b4f3f;
     line-height: 1.6;
 }
@@ -55,7 +63,7 @@ section p {
 }
 
 .quote {
-    font-size: 32px;
+    font-size: 25px;
     color: #4a2c2c;
     margin-bottom: 20px;
     font-style: italic;
@@ -69,9 +77,11 @@ section p {
 
 /* Button */
 button {
+    margin-left: 498px;
     padding: 15px 30px;
     font-size: 22px;
-    background-color: #d4af37;
+    background-color: #f4ce51;
+    border: 1px solid #d19b30;
     color: #ffffff;
     border: none;
     border-radius: 30px;
