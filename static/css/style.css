@@ -1,58 +1,85 @@
+/* Global Styles */
 body {
     font-family: 'Times New Roman', Times, serif;
-    background-color: #f9f7f3; /* Soft beige background */
+    background-color: #f9f7f3;
     margin: 0;
     padding: 0;
 }
 
 .container {
-    max-width: 900px;
-    margin: 80px auto;
-    padding: 30px;
-    background-color: #ffffff; /* White background */
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
-    border-radius: 15px; /* Rounded corners */
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
 }
 
 h1 {
     text-align: center;
-    color: #4a2c2c; /* Dark brown for a royal touch */
-    font-size: 36px; /* Larger font size for emphasis */
+    color: #4a2c2c;
+    font-size: 40px;
     margin-bottom: 30px;
-    text-transform: uppercase; /* Uppercase text */
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
+/* Sections */
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #fefefe;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 28px;
+    color: #4a2c2c;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 18px;
+    color: #6b4f3f;
+    line-height: 1.6;
+}
+
+/* Quote Container */
 .quote-container {
     padding: 30px;
-    border-bottom: 2px solid #d4af37; /* Gold border for luxury */
-    margin-bottom: 20px;
+    border-bottom: 3px solid #d4af37;
+    margin-bottom: 40px;
+    background-color: #fff8e6;
+    border-radius: 15px;
 }
 
 .quote {
-    font-size: 28px; /* Large font size for the quote */
-    color: #4a2c2c; /* Dark brown text color */
+    font-size: 32px;
+    color: #4a2c2c;
     margin-bottom: 20px;
-    font-style: italic; /* Italicize the quote for emphasis */
+    font-style: italic;
 }
 
 .sentiment, .summary {
-    font-size: 22px; /* Slightly larger font size */
-    color: #6b4f3f; /* Brown text color */
+    font-size: 24px;
+    color: #6b4f3f;
     margin-bottom: 15px;
 }
 
+/* Button */
 button {
-    padding: 12px 24px;
-    font-size: 20px; /* Larger font size for the button */
-    background-color: #d4af37; /* Gold background color */
-    color: #ffffff; /* White text color */
+    padding: 15px 30px;
+    font-size: 22px;
+    background-color: #d4af37;
+    color: #ffffff;
     border: none;
-    border-radius: 25px; /* Rounded corners for a luxurious feel */
+    border-radius: 30px;
     cursor: pointer;
-    transition: background-color 0.3s ease; /* Smooth transition */
+    transition: background-color 0.3s ease;
 }
 
 button:hover {
-    background-color: #b58c28; /* Darker gold on hover */
-    box-shadow: 0 0 15px rgba(212, 175, 55, 0.5); /* Soft shadow on hover */
+    background-color: #b58c28;
+    box-shadow: 0 0 20px rgba(212, 175, 55, 0.5);
 }
