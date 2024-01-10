@@ -66,8 +66,8 @@ Azure AI Service <br>
 <h3>Working Live Project Display</h3>
 <b>Description :</b><p align="justify">Here, I am attaching the final working website's screenshot for the reference.</p>
 <img src="https://github.com/piyushbhavsarr/quote_sentiment_analysis/blob/main/screenshots/finalpro1.png" alt="final-project-demo"></img>
-<img src="https://github.com/piyushbhavsarr/quote_sentiment_analysis/blob/main/screenshots/finalpro2.png" alt="final-project-demo"></img>
 <img src="https://github.com/piyushbhavsarr/quote_sentiment_analysis/blob/main/screenshots/finalpro3.png" alt="final-project-demo"></img>
+<img src="https://github.com/piyushbhavsarr/quote_sentiment_analysis/blob/main/screenshots/finalpro2.png" alt="final-project-demo"></img>
 
 <h3>Resource Visualizer</h3>
 <img src="https://github.com/piyushbhavsarr/quote_sentiment_analysis/blob/main/screenshots/app-ai.jpg" alt="resource-display"></img>
