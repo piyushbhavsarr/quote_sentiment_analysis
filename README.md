@@ -9,7 +9,7 @@
 <h2>Azure Services Used</h2>
 <h3>
 Core Azure Services :  <br>
-<h5>1. Azure App Service <br>
+1. Azure App Service <br>
 2. Azure Database for MySQL flexible server <br> <br>
 Azure AI Service <br>
 1. Azure AI Language Service - Sentiment Analysis and Summarization
