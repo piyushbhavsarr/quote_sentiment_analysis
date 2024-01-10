@@ -1,20 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Quote Sentiment Analysis</title>
-<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <meta charset="UTF-8">
+    <title>Quote Sentiment Analysis</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <style>
+        /* Additional styling can be added here if necessary */
+        .github-link {
+            margin-top: 30px;
+            text-align: center;
+        }
+        .royal {
+            font-family: 'Times New Roman', Times, serif;
+            color: #4a2c2c; /* Dark brown color for a royal touch */
+        }
+    </style>
 </head>
 <body>
-<div class="container">
-    <h1>Quote Sentiment Analysis</h1>
-    <div class="quote-container">
-        <p class="quote">{{ quote }}</p>
-        <p class="sentiment">Sentiment: {{ sentiment }}</p>
-        <p class="summary">Summary: {{ summary }}</p>
+    <h1> Python & Flask + Microsoft Azure Core + AI Services</h1>
+    <div class="container">
+        <h1 class="royal">Welcome to Quote Sentiment Analysis</h1>
+
+        <!-- Quote Display Container -->
+        <div class="quote-container royal">
+            <p class="quote">{{ quote }}</p>
+            <p class="sentiment">Sentiment: {{ sentiment }}</p>
+            <p class="summary">Summary: {{ summary }}</p>
+        </div>
+        
+        <!-- New Quote Button -->
+        <button id="newButton" class="royal">New Quote</button>
     </div>
-    <button id="newButton">New Quote</button>
-</div>
-<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+
+        <!-- Project Overview Section -->
+        <section class="royal">
+            <h2>About the Project</h2>
+            <p>
+                Quote Sentiment Analysis is a sophisticated web application designed to provide insights 
+                into the sentiment of various quotes. Using advanced AI algorithms from Azure Text Analytics, 
+                the application evaluates the sentiment of a given quote and provides a concise summary.
+            </p>
+        </section>
+
+
+        <!-- How to Use Section -->
+        <section class="royal">
+            <h2>How to Use</h2>
+            <p>
+                Click the <b>"New Quote"</b> button below to fetch a new quote. You'll see the <b>sentiment</b> and a <b>summary</b> 
+                of the quote displayed on the page.
+            </p>
+        </section>
+
+        <!-- Backend and Technologies Section -->
+        <section class="royal">
+            <h2>Backend and Technologies</h2>
+            <p>
+                The backend of this application is built using Flask, a lightweight Python web framework. 
+                It connects to an <h4>Azure Database for MySQL</h4> to fetch quotes and uses <h4>Azure Text Analytics</h4> for sentiment analysis.
+            </p>
+            <p>
+                Technologies Used: Python, Flask, Azure Text Analytics, MySQL, HTML, CSS, JavaScript.
+            </p>
+        </section>
+
+        <!-- GitHub Repository Link Section -->
+        <section class="github-link royal">
+            <h2>Source Code</h2>
+            <p>
+                Explore the source code on <a href="https://github.com/piyushbhavsarr/quote_sentiment_analysis" target="_blank">GitHub</a>.
+            </p>
+        </section>
+        
+        
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
 </body>
 </html>
