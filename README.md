@@ -15,9 +15,9 @@ Azure AI Service <br>
 1. Azure AI Language Service - Sentiment Analysis and Summarization
 </h3>
 <h2>Problem Statement</h2>
-<p align="justify">Understanding the sentiment behind quotes can provide valuable insights. This app aims to provide a user-friendly platform where users can input quotes and receive sentiment analysis results, aiding in understanding the underlying emotions conveyed.</p>
+<p align="justify">Understanding the sentiment behind quotes can provide valuable insights. This app aims to provide a user-friendly platform where users can analyze famous quotes and receive sentiment analysis results, aiding in understanding the underlying emotions conveyed.</p>
 <h2>Project Description</h2>
-<p align="justify">The "Quote Sentiment Analyzer" is a sophisticated web application engineered to uncover the emotional nuances concealed within renowned quotations. By integrating Azure AI Sentiment Analysis Service, the platform analyzes user-inputted quotes to determine their underlying sentiment—whether it be positive, negative, or neutral. Furthermore, users can benefit from a summarization feature, condensing extensive quotes into succinct summaries while preserving their emotional essence.</p><br>
+<p align="justify">The "Quote Sentiment Analyzer" is a sophisticated web application engineered to uncover the emotional nuances concealed within renowned quotations. By integrating Azure AI Sentiment Analysis Service, the platform analyzes famous quotes to determine their underlying sentiment—whether it be positive, negative, or neutral. Furthermore, users can benefit from a summarization feature, condensing extensive quotes into succinct summaries while preserving their emotional essence.</p><br>
 <b>Key Features :</b>
 <ul>
     <li>Accurate Sentiment Analysis of Quotes</li>
