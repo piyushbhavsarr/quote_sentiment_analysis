@@ -8,11 +8,11 @@
 <b>Industry :</b> Information Technology (IT) and Software<br>
 <h2>Azure Services Used</h2>
 <h3>
-Core Azure Services : <br>
-1. Azure App Service <br>
-2. Azure Database for MySQL flexible server <br> <br>
-Azure AI Service <br>
-1. Azure AI Language Service - Sentiment Analysis and Summarization
+Core Azure Services : </h3> <br>
+<h5>1. Azure App Service <br>
+2. Azure Database for MySQL flexible server </h5><br> <br>
+<h3>Azure AI Service </h3><br>
+<h5>1. Azure AI Language Service - Sentiment Analysis and Summarization</h5>
 </h3>
 <h2>Problem Statement</h2>
 <p align="justify">Understanding the sentiment behind quotes can provide valuable insights. This app aims to provide a user-friendly platform where users can input quotes and receive sentiment analysis results, aiding in understanding the underlying emotions conveyed.</p>
