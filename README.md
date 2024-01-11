@@ -3,7 +3,7 @@
 <br>
 <h2>Project Details</h2>
 <b>Project Demo URL :</b> https://quotesanalysis.azurewebsites.net/ <br>
-<b>Demo Video URL :</b> https://drive.google.com/file/d/1bLptg01EM3NtTRZY6j6X_FCmrwf_2TN9/view <br>
+<b>Demo Video URL :</b> https://drive.google.com/file/d/1LbRXTdUMO56Bztyq7F2DIg6IktAqxi63/view?usp=drive_link <br>
 <b>Github Repository URL :</b> https://github.com/piyushbhavsarr/quote_sentiment_analysis <br>
 <b>Industry :</b> Information Technology (IT) and Software<br>
 <h2>Azure Services Used</h2>
